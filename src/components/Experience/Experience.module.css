@@ -1,0 +1,55 @@
+.headSection{
+    font-weight:700;
+    font-size:35px;
+    text-transform: uppercase;
+    color:#fff;
+    margin-bottom: 30px;
+}
+.experienceSection{
+    margin: 60px;
+    color: #fff;
+}
+.companyLogo{
+    align-self: center;
+}
+/* .companyList{
+    padding-left: 25%;
+} */
+.techContainer{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: rgba(25, 55, 109, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.tasklist{
+    margin-top: 0;
+    list-style:disc;
+    font-weight: 400;
+    font-size: 25px;
+}
+.jobTitle{
+    font-weight: 500;
+    font-size: 30px;
+}
+.jobDuration{
+    font-weight: 300;
+    font-size: 20px;
+}
+.companyList >div{
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(90deg, #19376D 0%, rgba(25, 55, 109, 0) 100%);
+}
+.tech{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}

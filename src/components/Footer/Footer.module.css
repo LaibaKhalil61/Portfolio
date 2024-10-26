@@ -1,0 +1,40 @@
+.footer{
+    background: rgba(25, 55, 109, 1);
+    margin-top: 40px;
+    padding: 50px;
+    color: #fff;
+}
+.head{
+    font-size: 80px;
+    font-weight: 700;
+}
+.description{
+    font-size: 40px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.listItem{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+@media (max-width:768px) {
+    .description{
+        margin-bottom: 30px;
+    }
+    .head,.description{
+        text-align: center;
+    }
+    .listItem{
+        margin-left: 20px ;
+    }   
+}
+@media (max-width:576px) {
+    .listItem{
+        margin-left: 50px ;
+    }    
+}

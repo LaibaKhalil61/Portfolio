@@ -1,0 +1,10 @@
+:root{
+    /* Colors */
+    /* Gradient color */
+    --color-dark:#19376DB2;
+    --color-primary:#576CBC;
+    --color-secondary:#19376D;
+    --color-bg : #04152D;
+    /* Font */
+    --font-style:"Outfit","sans-serif";
+}

@@ -1,0 +1,86 @@
+.heroSection{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.HeroSectionDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description{
+    margin-bottom: 30px;
+    font-weight:400;
+    font-size:31px;
+    z-index: 111;
+}
+.name{
+    margin-bottom: 30px;
+    font-weight:700;
+    font-size:71px;
+    background: linear-gradient(90deg,rgba(255,255,255,1)70%,rgba(255,255,255,0)120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    z-index: 111;
+}
+.topBlur{
+    position: absolute;
+  width: 50vw;
+  height: 50vw;
+  background: #19376DB2;
+  left: -25vw;
+  top: -14vw;
+  filter: blur(100px);
+  z-index: 0;
+  border-radius: 700px;
+}
+.bottomBlur{
+  position: absolute;
+  width: 60vw;
+  height: 50vw;
+  background: #19376DB2;
+  right: -25vw;
+  border-radius: 700px;
+  top: 254px;
+  filter: blur(100px);
+  z-index: 0;
+}
+.HeroSectionImage{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.HeroSectionImage>img{
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform:translate(0,10px)
+    }
+    100%{
+        transform: translate(0,-0px);
+    }
+}
+@media (max-width: 768px) {
+    .heroSection{
+        flex-direction: column-reverse;
+    }
+    .HeroSectionDetails{
+        align-items: center;
+    }
+    .description{
+        text-align: center;
+    }
+    .name{
+        font-weight: 600;
+    }
+    
+}
